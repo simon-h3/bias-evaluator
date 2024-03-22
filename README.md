@@ -1,6 +1,10 @@
+
 # Basic Bias Evaluator
 Bias evaluation system based on OpenAI's APIs.
-Example prompts specific to gender bias, different types are evaluated and sentiment analysis is also excercised.
+
+ - Example prompts specific to gender bias.
+ - Sentiment analysis on outputs.
+ - Space for additional evaluation types and prompts.
 
 ## Execution 
 
