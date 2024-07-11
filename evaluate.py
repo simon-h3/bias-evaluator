@@ -91,7 +91,7 @@ def process_ambiguous_sentences():
         response = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
-                {"role": "system", "content": SYSTEM_ACTOR}, # needed???
+                {"role": "system", "content": SYSTEM_ACTOR},
                 {"role": "user", "content": prompt}
             ]
             )
