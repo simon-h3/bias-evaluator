@@ -14,18 +14,13 @@ Bias evaluation system based on OpenAI's APIs.
 - Space for additional evaluation types and prompts.
 
   
+## Environment, Keys & Variables
 
-## Execution
-
-  
-
-Update the **[env.py](https://github.com/simon-h3/bias-evaluator/blob/main/env.py)** variables:
+To update the **[env.py](https://github.com/simon-h3/bias-evaluator/blob/main/env.py)** variables:
 
   
 
-# ENV KEYS AND VARIABLES - GIT EXCLUDED
-
-OPENAI_KEY = *key here*
+    OPENAI_KEY = *key here*
 
   
 
@@ -36,7 +31,7 @@ Once API key has been specified, the `evaluate.py` code can communicate with Ope
 
     pip install -r requirements.txt
 
-  
+  ## Execution
 
 To execute, run the following in a terminal or IDE.
 
